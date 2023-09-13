@@ -14,6 +14,8 @@ public class CalcolaBiglietto {
 		System.out.print("Indica la tua età: ");
 		int eta = scan.nextInt();
 		
+		scan.close();
+		
 		float prezzo =  0.21F * km;
 		float scontato = 0;
 		
